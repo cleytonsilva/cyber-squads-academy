@@ -29,8 +29,7 @@ const ProgressStats: React.FC<ProgressStatsProps> = ({
         </div>
         <Progress 
           value={courseProgress} 
-          className="h-2 bg-white/20" 
-          indicatorClassName="bg-cyber-purple" 
+          className="h-2 bg-white/20 [&>div]:bg-cyber-purple" 
         />
       </div>
       

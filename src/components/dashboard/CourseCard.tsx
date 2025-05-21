@@ -37,7 +37,7 @@ const CourseCard: React.FC<CourseCardProps> = ({
           <h3 className="text-lg font-bold text-white line-clamp-1">{title}</h3>
           
           <div className="flex items-center space-x-2 mt-2">
-            <Progress value={progress} className="h-2 bg-white/20" indicatorClassName="bg-cyber-green" />
+            <Progress value={progress} className="h-2 bg-white/20 [&>div]:bg-cyber-green" />
             <span className="text-xs text-white/70 w-12">{progress}%</span>
           </div>
         </div>
